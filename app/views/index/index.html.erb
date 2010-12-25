@@ -1,0 +1,15 @@
+<div class="half1">
+<div class="half1-inner">
+<h1>They will be punished!</h1>
+<% form_for :index, :url => { :action => "create" } do |f| %>
+  <%= f.text_field :name,{:class=>"victim"} %>
+  <%= f.submit "Ye-e!", {:class=>"submit_victim"} %>
+<% end %>
+</div>
+</div>
+
+<div class="half2">
+<% @victims.each do |victim| %>
+<p class="victim"><%= h victim.name %></p>
+<% end %>
+</div>

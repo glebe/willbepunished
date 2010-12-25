@@ -1,0 +1,54 @@
+body{
+  padding:0px;
+  margin:0px;
+  font-family:sans-serif;
+  background-color:#3c3c3c;
+}
+
+
+div.half1{
+  color:black;
+  padding-top:20px;
+  padding-bottom:40px;
+  background-color:black;
+background:white url(http://imm.io/media/2I/2IUW.jpg) no-repeat;
+  text-align:center;
+}
+
+div.half1-inner{
+  width:400px
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+div.half1-inner h1{
+  font-size: 50pt;
+}
+
+div.half1-inner input.victim{
+  font-size:20pt;
+}
+
+div.half1-inner input.submit_victim{
+  height:25px
+}
+
+div.half2{
+  padding-top:10px;
+  color:black;
+  font-size:20pt;
+  margin-left: auto ;
+  margin-right: auto ;
+  width:400px;
+}
+p.victim{color:whitesmoke}
+
+div.copy{
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  color: white;
+}
+div.copy a{
+  color:white
+}
