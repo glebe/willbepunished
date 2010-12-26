@@ -11,8 +11,13 @@ div.half1{
   padding-top:20px;
   padding-bottom:40px;
   background-color:black;
-background:white url(http://imm.io/media/2I/2IUW.jpg) no-repeat;
+
+  background:url(http://imm.io/media/2I/2IUW.jpg) no-repeat;
+
   text-align:center;
+}
+div.half1-bg{
+  background:url(http://imm.io/media/2J/2J5I.jpg) repeat-x;
 }
 
 div.half1-inner{
